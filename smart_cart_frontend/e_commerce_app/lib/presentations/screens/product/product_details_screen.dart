@@ -4,6 +4,7 @@ import 'package:e_commerce_app/data/models/product_model.dart';
 import 'package:e_commerce_app/logic/cubits/cart_cubits/cart_cubit.dart';
 import 'package:e_commerce_app/logic/cubits/cart_cubits/cart_state.dart';
 import 'package:e_commerce_app/logic/services/formatter.dart';
+import 'package:e_commerce_app/logic/services/wishlist_service.dart';
 import 'package:e_commerce_app/presentations/widgets/gap_widget.dart';
 import 'package:e_commerce_app/presentations/widgets/primary_button.dart';
 
@@ -22,11 +23,49 @@ class ProductDetailsScreen extends StatefulWidget {
 }
 
 class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
+  bool isInWishlist = false;
+
+  @override
+  void initState() {
+    super.initState();
+    // isInWishlist = widget.productModel.isInWishlist ?? false;
+  }
+
+  // Method to add product to wishlist
+  void addToWishlist() {
+    WishlistService.addToWishlist(widget.productModel);
+  }
+
+  // Method to remove product from wishlist
+  void removeFromWishlist() {
+    WishlistService.removeFromWishlist(widget.productModel);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("${widget.productModel.title}"),
+        actions: [
+          IconButton(
+            onPressed: () {
+              // Toggle isInWishlist status
+              setState(() {
+                isInWishlist = !isInWishlist;
+              });
+              // Add or remove the product from the wishlist
+              if (isInWishlist) {
+                addToWishlist(); // Call method to add to wishlist
+              } else {
+                removeFromWishlist(); // Call method to remove from wishlist
+              }
+            },
+            icon: Icon(
+              isInWishlist ? Icons.favorite : Icons.favorite_border,
+              color: isInWishlist ? Colors.red : null,
+            ),
+          ),
+        ],
       ),
       body: SafeArea(
         child: ListView(

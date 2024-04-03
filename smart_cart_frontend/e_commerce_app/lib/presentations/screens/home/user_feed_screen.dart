@@ -99,7 +99,7 @@ class _UserFeedScreenState extends State<UserFeedScreen> {
                     ),
                     const SizedBox(height: 16),
                     SizedBox(
-                      height: 500, // Adjusted height for ProductGridView
+                      height: 250, // Adjusted height for ProductGridView
                       child: ProductGridView(
                         deal: true,
                       ),
@@ -138,7 +138,7 @@ class _UserFeedScreenState extends State<UserFeedScreen> {
                     ),
                     const SizedBox(height: 16),
                     SizedBox(
-                      height: 500, // Adjusted height for ProductGridView
+                      height: 250, // Adjusted height for ProductGridView
                       child: ProductGridView(
                         k: 15,
                       ),

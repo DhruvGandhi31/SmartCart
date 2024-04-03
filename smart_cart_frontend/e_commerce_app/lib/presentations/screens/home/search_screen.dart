@@ -5,6 +5,7 @@ import 'package:e_commerce_app/presentations/screens/product/product_details_scr
 import 'package:e_commerce_app/presentations/widgets/product_list_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class SearchScreen extends StatefulWidget {
@@ -27,6 +28,7 @@ class _SearchScreenState extends State<SearchScreen> {
     return Scaffold(
       body: Column(
         children: [
+          SizedBox(height: 30),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Row(
@@ -38,7 +40,8 @@ class _SearchScreenState extends State<SearchScreen> {
                   },
                 ),
                 SizedBox(width: 10),
-                Expanded(
+                Container(
+                  width: MediaQuery.of(context).size.width * 0.7,
                   child: TextField(
                     controller: _searchController,
                     onChanged: (query) {

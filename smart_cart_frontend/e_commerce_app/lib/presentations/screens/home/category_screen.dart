@@ -8,6 +8,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 class CategoryScreen extends StatefulWidget {
   const CategoryScreen({super.key});
 
+  static const String routeName = "CategoryScreen";
+
   @override
   State<CategoryScreen> createState() => _CategoryScreenState();
 }

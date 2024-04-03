@@ -4,6 +4,7 @@ import 'package:e_commerce_app/logic/cubits/user_cubits/user_cubits.dart';
 import 'package:e_commerce_app/logic/cubits/user_cubits/user_state.dart';
 import 'package:e_commerce_app/presentations/screens/order/my_order_screen.dart';
 import 'package:e_commerce_app/presentations/screens/user/edit_profile_screen.dart';
+import 'package:e_commerce_app/presentations/screens/wishlist/wishlist_screen.dart';
 import 'package:e_commerce_app/presentations/widgets/link_button.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -12,6 +13,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
 
+  static const String routeName = "ProfileScreen";
   @override
   State<ProfileScreen> createState() => _ProfileScreenState();
 }
@@ -130,6 +132,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             _profileButton(
               onTap: () {
                 // Implement Profile functionality
+                Navigator.pushNamed(context, 'edit_profile');
               },
               icon: Icons.person,
               label: "Profile",
@@ -137,7 +140,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
             // Wishlist Button
             _profileButton(
               onTap: () {
-                // Implement Wishlist functionality
+                // Navigate to Wishlist Screen
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => WishlistScreen(),
+                  ),
+                );
               },
               icon: Icons.favorite,
               label: "Wishlist",
@@ -173,7 +182,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       required IconData icon,
       required String label}) {
     return Container(
-      width: MediaQuery.of(context).size.width / 3,
+      width: MediaQuery.of(context).size.width * 0.4,
       child: InkWell(
         onTap: onTap,
         child: Container(

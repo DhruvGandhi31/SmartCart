@@ -1,6 +1,8 @@
 import 'package:e_commerce_app/data/models/user_model.dart';
 import 'package:e_commerce_app/logic/cubits/user_cubits/user_cubits.dart';
 import 'package:e_commerce_app/logic/cubits/user_cubits/user_state.dart';
+import 'package:e_commerce_app/presentations/screens/home/category_screen.dart';
+import 'package:e_commerce_app/presentations/screens/home/profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -116,6 +118,8 @@ class _MainDrawerState extends State<MainDrawer> {
               onTap: () {
                 // Navigate to profile screen
                 // You can replace 'ProfileScreen' with the actual route name
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => ProfileScreen()));
                 // Navigator.pushNamed(context, 'ProfileScreen');
               },
             ),
@@ -125,7 +129,9 @@ class _MainDrawerState extends State<MainDrawer> {
               onTap: () {
                 // Navigate to categories screen
                 // You can replace 'CategoriesScreen' with the actual route name
-                // Navigator.pushNamed(context, 'CategoriesScreen');
+                // Navigator.pushNamed(context, 'CategoryScreen');
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => CategoryScreen()));
               },
             ),
             ListTile(
@@ -134,7 +140,7 @@ class _MainDrawerState extends State<MainDrawer> {
               onTap: () {
                 // Navigate to my orders screen
                 // You can replace 'MyOrdersScreen' with the actual route name
-                // Navigator.pushNamed(context, 'MyOrdersScreen');
+                Navigator.pushNamed(context, 'my_orders');
               },
             ),
             ListTile(
@@ -143,7 +149,7 @@ class _MainDrawerState extends State<MainDrawer> {
               onTap: () {
                 // Navigate to cart screen
                 // You can replace 'CartScreen' with the actual route name
-                // Navigator.pushNamed(context, 'CartScreen');
+                Navigator.pushNamed(context, 'cart');
               },
             ),
             ListTile(
