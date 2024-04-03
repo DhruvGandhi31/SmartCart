@@ -84,6 +84,10 @@ The backend of SmartCart is deployed on Vercel, a cloud platform offering server
 ## Demo
 
 
+https://github.com/DhruvGandhi31/SmartCart/assets/96539582/3b9b6e87-5b78-497b-939f-b26503d84967
+
+
+
 
 
 
