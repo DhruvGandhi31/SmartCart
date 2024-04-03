@@ -10,9 +10,9 @@
     <img src="logo.png" alt="Logo" width="300" height="300">
   </a>
  
-  <li>
+
       <a href="#Demo">View Demo</a>
-      </li>
+     
     
 
 <!-- <h3 align="center">SmartCart</h3> -->
