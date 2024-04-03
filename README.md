@@ -38,10 +38,7 @@
     </li>
     <li>
       <a href="#Demo">Demo Video</a>
-      
-    </li>
-    
-\
+      </li>
   </ol>
 </details>
 
