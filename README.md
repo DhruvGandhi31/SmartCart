@@ -10,7 +10,10 @@
     <img src="logo.png" alt="Logo" width="300" height="300">
   </a>
   <br />
-    <a href="https://github.com/DhruvGandhi31/SmartCart/assets/96539582/3b9b6e87-5b78-497b-939f-b26503d84967">View Demo</a>
+  <li>
+      <a href="#Demo">View Demo</a>
+      </li>
+    
 
 <!-- <h3 align="center">SmartCart</h3> -->
 
