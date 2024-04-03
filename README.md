@@ -68,8 +68,6 @@ SmarCart is a modern e-commerce application built to provide users with a seamle
 ### Wishlist
 - Save favorite items for future reference.
 
-### Responsive Design
-- Mobile-first design ensuring a smooth experience across devices.
 
 ### Note
 I have used Provider and BLoC for state management in the same app to achieve features like local-state (Provider) management and global-state (BLoC) management. Provider is a simple and flexible state management solution for managing local-state within widgets. You can use Provider to manage the state of individual widgets or small parts of your UI. In this project, I have used Provider mainly for managing user state. BLoC is a state management pattern that separates the business logic from the UI. It's typically used for managing global application state and handling complex asynchronous operations. In this project, I have used bloc managing state of product and order. The bloc can fetch product data from an API and hold it in memory, allowing multiple widgets to access and display the same data without needing to refetch it. To integrate Provider and BLoC in the same app, I have used Provider to provide BLoCs to your widgets. 
