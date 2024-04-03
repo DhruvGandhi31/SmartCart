@@ -1,0 +1,45 @@
+# Miscellaneous
+smart_cart_frontend/*.class
+smart_cart_frontend/*.log
+smart_cart_frontend/*.pyc
+smart_cart_frontend/*.swp
+smart_cart_frontend/.DS_Store
+smart_cart_frontend/.atom/
+smart_cart_frontend/.buildlog/
+smart_cart_frontend/.history
+smart_cart_frontend/.svn/
+smart_cart_frontend/migrate_working_dir/
+
+# IntelliJ related
+smart_cart_frontend/*.iml
+smart_cart_frontend/*.ipr
+smart_cart_frontend/*.iws
+smart_cart_frontend/.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+smart_cart_frontend/**/doc/api/
+smart_cart_frontend/**/ios/Flutter/.last_build_id
+smart_cart_frontend/.dart_tool/
+smart_cart_frontend/.flutter-plugins
+smart_cart_frontend/.flutter-plugins-dependencies
+smart_cart_frontend/.pub-cache/
+smart_cart_frontend/.pub/
+smart_cart_frontend/build/
+
+# Symbolication related
+smart_cart_frontend/app.*.symbols
+
+# Obfuscation related
+smart_cart_frontend/app.*.map.json
+
+# Android Studio will place build artifacts here
+smart_cart_frontend/android/app/debug
+smart_cart_frontend/android/app/profile
+smart_cart_frontend/android/app/release
+
+smart_cart_backend/node_modules/
