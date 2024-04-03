@@ -9,7 +9,7 @@
   <a href="https://github.com/DhruvGandhi31/SmartCart">
     <img src="logo.png" alt="Logo" width="300" height="300">
   </a>
-  <br />
+ 
   <li>
       <a href="#Demo">View Demo</a>
       </li>
