@@ -47,7 +47,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-SmarCart is a modern e-commerce application built to provide users with a seamless shopping experience. It offers a wide range of products across various categories, allowing users to browse, search, and purchase items effortlessly.
+SmarCart is an e-commerce application built to provide users with a seamless shopping experience. It offers a wide range of products across various categories, allowing users to browse, search, and purchase items effortlessly.
 
 ## Features
 
