@@ -10,7 +10,7 @@
     <img src="logo.png" alt="Logo" width="300" height="300">
   </a>
   <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/DhruvGandhi31/SmartCart/assets/96539582/3b9b6e87-5b78-497b-939f-b26503d84967">View Demo</a>
 
 <!-- <h3 align="center">SmartCart</h3> -->
 
@@ -82,9 +82,8 @@ The backend of SmartCart is deployed on Vercel, a cloud platform offering server
 
 
 ## Demo
+![Demo Video]()
 
-
-https://github.com/DhruvGandhi31/SmartCart/assets/96539582/3b9b6e87-5b78-497b-939f-b26503d84967
 
 
 
