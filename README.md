@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DhruvGandhi31/SmartCart">
-    <img src="logo.png" alt="Logo" width="150" height="150">
+    <img src="logo.png" alt="Logo" width="300" height="300">
   </a>
   <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
