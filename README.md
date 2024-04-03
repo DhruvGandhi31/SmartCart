@@ -7,12 +7,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/DhruvGandhi31/SmartCart">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="150" height="150">
   </a>
   <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
 
-<h3 align="center">SmartCart</h3>
+<!-- <h3 align="center">SmartCart</h3> -->
 
   <!-- <p align="center">
     project_description
@@ -30,19 +30,17 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#Features">Built With</a></li>
+      </ul>
+      <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
       <a href="#Demo">Demo Video</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      
     </li>
-    <li><a href="#demo">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    
 \
   </ol>
 </details>
