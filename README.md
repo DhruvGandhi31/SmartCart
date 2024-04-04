@@ -1,8 +1,3 @@
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -33,7 +28,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#Features">Built With</a></li>
+        <li><a href="#Features">Features</a></li>
       </ul>
       <ul>
         <li><a href="#built-with">Built With</a></li>
@@ -52,7 +47,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-SmarCart is a modern e-commerce application built to provide users with a seamless shopping experience. It offers a wide range of products across various categories, allowing users to browse, search, and purchase items effortlessly.
+SmarCart is an e-commerce application built to provide users with a seamless shopping experience. It offers a wide range of products across various categories, allowing users to browse, search, and purchase items effortlessly.
 
 ## Features
 
